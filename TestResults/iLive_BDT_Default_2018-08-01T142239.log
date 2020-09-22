@@ -1,0 +1,50 @@
+﻿2018-08-01T14:22:39.0871102+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-08-01T14:22:39.4534789+03:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-08-01T14:22:39.4534789+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\kirpichev\Downloads\Autotest_Project\iLive_BDT\iLive_BDT\bin\Debug\iLive_BDT.dll
+2018-08-01T14:22:39.4534789+03:00;VSTestExecutionThread;Info;Profile: Default
+2018-08-01T14:22:53.5605687+03:00;Thread#13;Info;Discovering target: Default
+2018-08-01T14:22:53.5605687+03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\kirpichev\Downloads\Autotest_Project\iLive_BDT\iLive_BDT\bin\Debug\iLive_BDT.dll
+Appdomain Disposed
+Test Suite Dump
+#0: iLive_BDT/Default - 
+#1: Default - 
+#2: iLive_BDT - 
+#3: SpecFlowFeatureStatus - 
+#6: Check status for cohabitation, that yet hasn't been approved - TestAssembly:iLive_BDT/Feature:SpecFlowFeatureStatus/Scenario:Check+status+for+cohabitation%2c+that+yet+hasn%27t+been+approved
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #6 from normal test queue 
+Thread#0:Scheduler: considering testitem #6 for thread 0
+Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #6 for thread 0
+Thread#0:Scheduler: Test #6 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for iLive_BDT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\kirpichev\Downloads\Autotest_Project\iLive_BDT\packages\SpecRun.Runner.1.7.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #6/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given Authorized as cohabitant
+Thread#0:T:done: SpecFlowFeatureStatusSteps.GivenAuthorizedAsCohabitant() (1,0s)
+Thread#0:B:And Property added to it's cohabitant
+Thread#0:T:done: SpecFlowFeatureStatusSteps.GivenPropertyAddedToItSCohabitant() (20,8s)
+Thread#0:B:When Status button is pressed
+Thread#0:T:done: SpecFlowFeatureStatusSteps.WhenStatusButtonIsPressed() (6,3s)
+Thread#0:B:Then Status for cohabitation that yet hasn't been approved can be found
+Thread#0:T:done: SpecFlowFeatureStatusSteps.ThenStatusForCohabitationThatYetHasnTBeenApprovedCanBeFound() (0,3s)
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #6/0 is finished on thread #0 as Succeeded within 53,2546231 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1
+Succeeded: 1
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

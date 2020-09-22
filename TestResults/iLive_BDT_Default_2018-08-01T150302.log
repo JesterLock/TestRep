@@ -1,0 +1,63 @@
+﻿2018-08-01T15:03:02.7235302+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-08-01T15:03:02.8691330+03:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-08-01T15:03:02.8691330+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\kirpichev\Downloads\Autotest_Project\iLive_BDT\iLive_BDT\bin\Debug\iLive_BDT.dll
+2018-08-01T15:03:02.8691330+03:00;VSTestExecutionThread;Info;Profile: Default
+2018-08-01T15:03:10.9649543+03:00;Thread#13;Info;Discovering target: Default
+2018-08-01T15:03:10.9659151+03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\kirpichev\Downloads\Autotest_Project\iLive_BDT\iLive_BDT\bin\Debug\iLive_BDT.dll
+Appdomain Disposed
+Test Suite Dump
+#0: iLive_BDT/Default - 
+#1: Default - 
+#2: iLive_BDT - 
+#3: SpecFlowFeatureStatus - 
+#7: Check status for accepted lease of moderated property - TestAssembly:iLive_BDT/Feature:SpecFlowFeatureStatus/Scenario:Check+status+for+accepted+lease+of+moderated+property
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #7 from normal test queue 
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for iLive_BDT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\kirpichev\Downloads\Autotest_Project\iLive_BDT\packages\SpecRun.Runner.1.7.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #7/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given Authorized as leaser
+Thread#0:T:done: SpecFlowFeatureStatusSteps.GivenAuthorizedAsLeaser() (4,8s)
+Thread#0:B:And Lease/cohabitance is accepted
+Thread#0:T:error: The HTTP request to the remote WebDriver server for URL http://localhost:54357/session/ba220934-7b4c-47f8-b8f3-0a9eed6e151f/element timed out after 60 seconds.
+Thread#0:B:When Status button is pressed
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Status for accepted lease of moderated property can be found
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#7:Scheduler: reschedule tests for testitem #7
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #7
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Scheduler: Test #7 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #7/0 is finished on thread #0 as Failed within 91,3995136 seconds
+Thread#0: Test #7/1 is started on thread #0
+Thread#0:B:Given Authorized as leaser
+Thread#0:T:done: SpecFlowFeatureStatusSteps.GivenAuthorizedAsLeaser() (2,9s)
+Thread#0:B:And Lease/cohabitance is accepted
+Thread#0:T:error: Failed to find value field
+Thread#0:B:When Status button is pressed
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Status for accepted lease of moderated property can be found
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #7
+Thread#0:Scheduler: considering testitem #7 for thread 0
+Thread#0:TestItem#7:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#7:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#7:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #7 for thread 0
+Thread#0:Schedul

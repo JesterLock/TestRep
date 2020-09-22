@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iLive_BDT", "iLive_BDT\iLive_BDT.csproj", "{0D4BF1B5-55C0-4CB9-AEED-DED6A023F930}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{C8CF92FD-A264-402B-9153-DBF56170FD80}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D4BF1B5-55C0-4CB9-AEED-DED6A023F930}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D4BF1B5-55C0-4CB9-AEED-DED6A023F930}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D4BF1B5-55C0-4CB9-AEED-DED6A023F930}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D4BF1B5-55C0-4CB9-AEED-DED6A023F930}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8CF92FD-A264-402B-9153-DBF56170FD80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8CF92FD-A264-402B-9153-DBF56170FD80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8CF92FD-A264-402B-9153-DBF56170FD80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8CF92FD-A264-402B-9153-DBF56170FD80}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7278887D-F7F1-4EE2-91C4-E26686980EED}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,78 @@
+﻿2018-08-15T12:09:29.5290631+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-08-15T12:09:29.6746785+03:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-08-15T12:09:29.6746785+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\kirpichev\Downloads\Autotest_Project\iLive_BDT\iLive_BDT\bin\Debug\iLive_BDT.dll
+2018-08-15T12:09:29.6746785+03:00;VSTestExecutionThread;Info;Profile: Default
+2018-08-15T12:09:43.7723995+03:00;Thread#13;Info;Discovering target: Default
+2018-08-15T12:09:43.7723995+03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\kirpichev\Downloads\Autotest_Project\iLive_BDT\iLive_BDT\bin\Debug\iLive_BDT.dll
+Appdomain Disposed
+Test Suite Dump
+#0: iLive_BDT/Default - 
+#1: Default - 
+#2: iLive_BDT - 
+#3: SpecFlowFeatureStatus - 
+#9: Check status for owned and accepted property - TestAssembly:iLive_BDT/Feature:SpecFlowFeatureStatus/Scenario:Check+status+for+owned+and+accepted+property
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #9 from normal test queue 
+Thread#0:Scheduler: considering testitem #9 for thread 0
+Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #9 for thread 0
+Thread#0:Scheduler: Test #9 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for iLive_BDT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\kirpichev\Downloads\Autotest_Project\iLive_BDT\packages\SpecRun.Runner.1.7.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #9/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given Authorized as owner
+Thread#0:T:done: SpecFlowFeatureStatusSteps.GivenAuthorizedAsOwner() (0,8s)
+Thread#0:B:And Property added to it's owner
+Thread#0:T:done: SpecFlowFeatureStatusSteps.GivenPropertyAddedToItSOwner() (7,4s)
+Thread#0:B:And Owned property is accepted
+Thread#0:T:done: SpecFlowFeatureStatusSteps.GivenOwnedPropertyIsAccepted() (4,1s)
+Thread#0:B:When Status button is pressed
+Thread#0:T:error: The HTTP request to the remote WebDriver server for URL http://localhost:60779/session/5bc2bc91-2aaa-4c72-8e9f-c2850972c2bc/element timed out after 60 seconds.
+Thread#0:B:Then Status for owned and accepted property can be found
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#9:Scheduler: reschedule tests for testitem #9
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #9
+Thread#0:Scheduler: considering testitem #9 for thread 0
+Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #9 for thread 0
+Thread#0:Scheduler: Test #9 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #9/0 is finished on thread #0 as Failed within 92,0062077 seconds
+Thread#0: Test #9/1 is started on thread #0
+Thread#0:T:Unable to connect to the remote server
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #9
+Thread#0:Scheduler: considering testitem #9 for thread 0
+Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #9 for thread 0
+Thread#0:Scheduler: Test #9 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #9/1 is finished on thread #0 as Failed within 3,4010152 seconds
+Thread#0: Test #9/2 is started on thread #0
+Thread#0:T:warning: The previous ScenarioContext was not disposed.
+Thread#0:T:Unable to connect to the remote server
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #9/2 is finished on thread #0 as Failed within 2,2468711 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1

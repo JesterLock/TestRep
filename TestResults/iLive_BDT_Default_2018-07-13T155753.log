@@ -1,0 +1,89 @@
+﻿2018-07-13T15:57:52.7904306+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-07-13T15:57:52.9828603+03:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-07-13T15:57:52.9838586+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\kirpichev\Downloads\Autotest_Project\iLive_BDT\iLive_BDT\bin\Debug\iLive_BDT.dll
+2018-07-13T15:57:52.9848568+03:00;VSTestExecutionThread;Info;Profile: Default
+2018-07-13T15:58:01.0996714+03:00;Thread#13;Info;Discovering target: Default
+2018-07-13T15:58:01.0996714+03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\kirpichev\Downloads\Autotest_Project\iLive_BDT\iLive_BDT\bin\Debug\iLive_BDT.dll
+Appdomain Disposed
+Test Suite Dump
+#0: iLive_BDT/Default - 
+#1: Default - 
+#2: iLive_BDT - 
+#3: SpecFlowFeatureStatus - 
+#4: Check status for owned property - TestAssembly:iLive_BDT/Feature:SpecFlowFeatureStatus/Scenario:Check+status+for+owned+property
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for iLive_BDT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\kirpichev\Downloads\Autotest_Project\iLive_BDT\packages\SpecRun.Runner.1.7.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Given Registered
+Thread#0:T:done: SpecFlowFeatureStatusSteps.GivenRegistered() (0,6s)
+Thread#0:B:And Property added to it's owner
+Thread#0:T:error: The HTTP request to the remote WebDriver server for URL http://localhost:51810/session/be472cd9-ccab-4724-a110-2db77f3f385e/element timed out after 60 seconds.
+Thread#0:B:When Status button is pressed
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Appropriate status can be found
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 1
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 88,4976274 seconds
+Thread#0: Test #4/1 is started on thread #0
+Thread#0:B:Given Registered
+Thread#0:T:done: SpecFlowFeatureStatusSteps.GivenRegistered() (0,8s)
+Thread#0:B:And Property added to it's owner
+Thread#0:T:error: The HTTP request to the remote WebDriver server for URL http://localhost:52072/session/3c385dc5-0d8e-42a1-a4ca-d23e2435c184/element timed out after 60 seconds.
+Thread#0:B:When Status button is pressed
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Appropriate status can be found
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 2
+Thread#0: Test #4/1 is finished on thread #0 as Failed within 88,8141958 seconds
+Thread#0: Test #4/2 is started on thread #0
+Thread#0:B:Given Registered
+Thread#0:T:done: SpecFlowFeatureStatusSteps.GivenRegistered() (2,3s)
+Thread#0:B:And Property added to it's owner
+Thread#0:T:error: The HTTP request to the remote WebDriver server for URL http://localhost:52319/session/3e2b6a50-f7d7-4ab0-af40-89e759a3c167/element timed out after 60 seconds.
+Thread#0:B:When Status button is pressed
+Thread#0:T:skipped because of previous errors
+Thread#0:B:Then Appropriate status can be found
+Thread#0:T:skipped because of previous errors
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/2 is finished on thread #0 as Failed within 79,4807265 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 1 (test executions: 3)
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 1
