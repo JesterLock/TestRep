@@ -39,5 +39,5 @@ steps:
       **\*test*.dll
       !**\*TestAdapter.dll
       !**\obj\**
-    searchFolder: 'C:\Users\kirpichev\Documents\GitHub\TestRep'
-    resultsFolder: 'C:\Users\kirpichev\Documents\GitHub\TestResults'
+    searchFolder: '$(System.DefaultWorkingDirectory)\TestRep'
+    resultsFolder: '$(Agent.TempDirectory)\TestResults'
