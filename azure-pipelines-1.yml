@@ -32,3 +32,6 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+- task: VSBuild@1
+  inputs:
+    solution: '**\*.sln'
