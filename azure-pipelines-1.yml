@@ -28,10 +28,15 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
+
 - task: VSTest@2
   inputs:
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
-- task: VSBuild@1
+    testSelector: 'testAssemblies'
+    testAssemblyVer2: 'WebTest1.webtest'
+    searchFolder: '$(System.DefaultWorkingDirectory)\MTSAPITesting'
+    vsTestVersion: '16.0'
+- task: VSTest@2
   inputs:
-    solution: '**\*.sln'
+    testSelector: 'testAssemblies'
+    testAssemblyVer2: 'MTSSeleniumTesting.dll'
+    searchFolder: '$(System.DefaultWorkingDirectory)\MTSSeleniumTesting\obj\Debug\netcoreapp3.1'
